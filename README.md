@@ -6,9 +6,11 @@
 		- C, Python, C++, JavaScript(ES6), Typescript, HTML5, CSS3
 	- Framework / Library
 		- Front-end
-			- React.js, Next.js, Styled-component, Sass, Recoil, Flask
-	- Server
-		- MongoDB
+			- React.js, Next.js, Styled-component, Sass, Recoil
+		- Server
+			- Flask, MongoDB
+		- Mobile Application
+			- React-Native(Expo)
 	- Tooling/ DevOps
 		- Git(Github), Shell(bash)
 	- Environment
@@ -23,7 +25,28 @@
 	- E-mail
 		- raehy19@gmail.com
 
-## 프로젝트 리스트
+---
+
+## Project List
+
+#### LovDov
+
+- 요약
+	- Ai 데이트 채팅 서비스 앱
+- source
+	- (private)
+- 카테고리
+	- Ai, Cross-Platform App
+- 사용 언어 및 기술 스택
+	- React-Native (EXPO)
+- 프로젝트 목적
+	- Ai 생성된 이미지와 chatgpt API를 이용한 ai 데이팅 앱
+- 인력 구성 및 기여
+	- 기획및 마케팅 2명 / Fastapi 백엔드 1명 / Reat-Native 앱개발 1명
+		- 앱 개발 파트
+		- 앱 개발 기여도 100%
+- 작업 기간
+	- 2023.08 ~ (진행중)
 
 #### 42GG.kr
 
@@ -33,12 +56,12 @@
 	- https://42gg.kr/
 	- https://github.com/42organization/42gg.client
 	- https://github.com/42organization/softwave.42gg.client
-- 프로젝트 목적
-	- 클러스터 내 탁구대의 예약 / 경기 매칭 / 경험치 / 랭킹 / 전적 검색을 제공하는 서비스
 - 카테고리
 	- Web, Frontend
 - 사용 언어 및 기술 스택
 	- Next.js(React), Typescript, Recoil, Sass, AWS ec2
+- 프로젝트 목적
+	- 클러스터 내 탁구대의 예약 / 경기 매칭 / 경험치 / 랭킹 / 전적 검색을 제공하는 서비스
 - 인력 구성 및 기여
 	- 2기 Frontend (Next.js 스택 개발) LEAD 역할
 		- Softwave
@@ -71,7 +94,47 @@
 		- 데이터 구조 설계 및 파싱 파트 담당
 	- 기여도 50%
 - 작업 기간
-	- 2023.02 ~ 2022.04 (약 9주)
+	- 2023.02 ~ 2023.04 (약 9주)
+
+#### Scalable Object Detection on Embedded Devices using Weight Pruning and Singular Value Decomposition
+
+- 요약
+	- Object Detection 모델 스터디 및 저사양 임베디드 기기에서 Object detection task 수행을 위한 모델 경량화 방법에 대한 탐색
+- Report
+	- https://arxiv.org/pdf/2303.02735.pdf
+- 카테고리
+	- AI
+- 사용 언어 및 스택
+	- Python, Yolo model
+- 프로젝트 목적
+	- 딥러닝 이론 스터디
+	- 데이터셋을 정해 Object Detection 모델을 선정해 학습
+	- 학습된 모델을 라즈베리 파이에서의 객체 탐지가 가능하도록 경량화하는 방법 탐색 및 적용
+- 인력 구성 및 기여
+	- 7인 프로젝트
+	- 기여도 15%
+- 작업 기간
+	- 2022.12 ~ 2023.03 (약 13주)
+
+#### 2 degrees of freedom robot arm
+
+- 요약
+	- 아두이노 이용 2자유도 로봇팔
+- source
+	- https://github.com/raehy19/2_degrees_of_freedom_robot_arm
+- 카테고리
+	- Robotics
+- 사용 언어 및 기술 스택
+	- Arduino
+- 프로젝트 목적
+	- 3D 프린터 출력물과 모터를 이용해 로봇팔 제작
+	- 2자유도 로봇팔의 집게가 base와의 수평과 수직 목표거리를 입력하면 그 지점으로 이동될 수 있도록 로봇팔 제어 프로그램 작성
+	- 집게를 제어해 물체를 잡을 수 있도록 함
+- 인력 구성 및 기여
+	- 2인 프로젝트
+	- 기여도 50%
+- 작업 기간
+	- 2022.04 ~ 2022.04 (약 2주)
 
 #### MODISCAN E1
 
@@ -90,25 +153,9 @@
 - 인력 구성 및 기여
 	- 하드웨어 설계 및 제작 2인 / 소프트웨어 개발 1인
 		- 소프트웨어 개발 역할
-	- 기여도 35%
+	- 기여도 40%
 - 작업 기간
-	- 2021.10 ~ 2022.12 (약 8주)
-
-#### Minimal expression generator
-
-- 요약
-	- minterm expression을 입력으로 받아, sum of products 형태의 minimal expression을 계산하는 프로그램
-- 카테고리
-	- Electronic Enginering - Digital Logic Circuit, Algorithm
-- 사용 언어 및 스택
-	- Python
-- 프로젝트 목적
-	- Quine mccluskey method 를 사용하여 논리식을 최소화하도록 계산하는 프로그램
-- 작업 기간
-	- 2021.12 ~ 2021.12 (약 1주)
-- 인력 구성 및 기여
-	- 개인 프로젝트
-	- 기여도 100%
+	- 2021.10 ~ 2021.12 (약 8주)
 
 #### animated_facial_expression_conference-Server
 
@@ -129,53 +176,31 @@
 		- 파이썬 서버는 캐릭터 이미지를 다시 안드로이드 어플리케이션으로 전송
 		- 안드로이드 어플리케이션에서 이미지 표기
 - 인력 구성 및 기여
-	- 3인 프로젝트 - 각각 파이썬 서버, 안드로이드 앱, 유니티 서버 담당
-		- Python 서버 개발 역할
+	- 3인 프로젝트 : 각각 파이썬 백엔드 서버, 안드로이드 앱, 유니티 서버 담당
+		- Python 백엔드 서버 개발 역할
 			- 개인 노트북으로 서버 실행
 			- 공유기 포트포워딩 및 도메인 구입하여 배포
 	- 기여도 35%
 - 작업 기간
-	- 2021.10 ~ 2022.12 (약 8주)
+	- 2021.10 ~ 2021.12 (약 8주)
 
-#### Scalable Object Detection on Embedded Devices using Weight Pruning and Singular Value Decomposition
-
-- 요약
-	- Object Detection 모델 스터디 및 저사양 임베디드 기기에서 Object detection task 수행을 위한 모델 경량화 방법에 대한 탐색
-- Report
-	- https://arxiv.org/pdf/2303.02735.pdf
-- 카테고리
-	- AI
-- 사용 언어 및 스택
-	- Python, Yolo model
-- 프로젝트 목적
-	- 딥러닝 이론 스터디
-	- 데이터셋을 정해 Object Detection 모델을 선정해 학습
-	- 학습된 모델을 라즈베리 파이에서의 객체 탐지가 가능하도록 경량화하는 방법 탐색 및 적용
-- 작업 기간
-	- 2023.0 ~ 2022.04 (약 2주)
-- 인력 구성 및 기여
-	- 2인 프로젝트
-	- 기여도 50%
-
-#### 2 degrees of freedom robot arm
+#### Minimal expression generator
 
 - 요약
-	- 아두이노 이용 2자유도 로봇팔
+	- minterm expression을 입력으로 받아, sum of products 형태의 minimal expression을 계산하는 프로그램
 - source
-	- https://github.com/raehy19/2_degrees_of_freedom_robot_arm
+	- https://github.com/raehy19/42cursus_minishell
 - 카테고리
-	- Robotics
-- 사용 언어 및 기술 스택
-	- Arduino
+	- Electronic Enginering - Digital Logic Circuit, Algorithm
+- 사용 언어 및 스택
+	- Python
 - 프로젝트 목적
-	- 3D 프린터 출력물과 모터를 이용해 로봇팔 제작
-	- 2자유도 로봇팔의 집게가 base와의 수평과 수직 목표거리를 입력하면 그 지점으로 이동될 수 있도록 로봇팔 제어 프로그램 작성
-	- 집게를 제어해 물체를 잡을 수 있도록 함
-- 작업 기간
-	- 2022.04 ~ 2022.04 (약 2주)
+	- Quine mccluskey method 를 사용하여 논리식을 최소화하도록 계산하는 프로그램
 - 인력 구성 및 기여
-	- 2인 프로젝트
-	- 기여도 50%
+	- 개인 프로젝트
+	- 기여도 100%
+- 작업 기간
+	- 2021.12 ~ 2021.12 (약 1주)
 
 #### Shortest Pathfinding Project
 
@@ -190,11 +215,13 @@
 	- C++
 - 프로젝트 목적
 	- 사용자에게 위치와 가게 이름을 입력받아 최단 경로 길찾기 결과를 제공하고, 그 결과를 지도 이미지에 선으로 시각화하여 보여 주는 프로그램
-- 작업 기간
-	- 2021.05 ~ 2021.06 (약 2주)
 - 인력 구성 및 기여
 	- 개인 프로젝트
 	- 기여도 100%
+- 작업 기간
+	- 2021.05 ~ 2021.06 (약 2주)
+
+---
 
 ## Education
 
@@ -205,14 +232,13 @@
 
 ## 기타 활동
 
+- 서카포연고 창업동아리 Founders 3기
+	- 2023.06 ~
+- 피오르팀 정시 입시 컨설턴트
+	- 2022.12 ~ 2023.01
+- 연세대학교 드론동아리 연세드론
+	- 2021.09 ~
 - 제 71대 연세대학교 전기전자공학부 학생회장 (공학 6반)
 	- 2020.11 ~ 2021.11
 - 연세대학교 로봇동아리 로보인
 	- 2020.03 ~
-- 연세대학교 드론동아리 연세드론
-	- 2021.09 ~
-- 피오르팀 입시 컨설턴트
-	- 2022.12 ~ 2023.01
-
-
-
